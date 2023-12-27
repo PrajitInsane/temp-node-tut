@@ -1,0 +1,11 @@
+//CommonJS every file is module(by default)
+//Modules-Encapsulated Code
+const names=require('./names')
+const sayHi=require('./utils')
+const data=require('./alternativesyn')
+require('./mindgrenade')
+console.log(data)
+console.log(names)
+ //sayHi('Prajit')
+ //sayHi(names.peter)
+ //sayHi(names.john)
